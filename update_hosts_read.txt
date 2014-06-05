@@ -1,0 +1,10 @@
+Run these commands:
+sudo cp /etc/hosts /etc/hosts.default
+
+sudo touch /usr/local/bin/update_hosts.sh
+
+echo *****Drop in the script****
+
+sudo chmod +x /usr/local/bin/update_hosts.sh
+
+sudo update_hosts.sh
